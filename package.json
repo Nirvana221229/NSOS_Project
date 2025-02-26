@@ -1,0 +1,23 @@
+{
+  "name": "nsos-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.65.1"
+  },
+  "devDependencies": {
+    "react-native-cli": "^2.0.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android"
+  },
+  "react-native": {
+    "android": {
+      "compileSdkVersion": 30,
+      "buildToolsVersion": "30.0.3",
+      "minSdkVersion": 21
+    }
+  }
+}
